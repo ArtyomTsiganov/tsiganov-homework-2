@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: homework-2-config
+data:
+  APP_MESSAGE: "deadlock is a good game"
+  FLASK_HOST: "0.0.0.0"
+  FLASK_PORT: "8000"
